@@ -1,102 +1,93 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <style>
-      @import "https://cdn.mpi-klsb.mpg.de/google/css/plus-jakarta-sans-v8.css";
-      html {
-        --mdc-checkbox-disabled-selected-icon-color: rgba(0, 0, 0, 0.38);
-        --mdc-checkbox-disabled-unselected-icon-color: rgba(0, 0, 0, 0.38);
-        --mdc-checkbox-selected-checkmark-color: #000;
-        --mdc-checkbox-selected-focus-icon-color: #ffd740;
-        --mdc-checkbox-selected-hover-icon-color: #ffd740;
-        --mdc-checkbox-selected-icon-color: #ffd740;
-        --mdc-checkbox-selected-pressed-icon-color: #ffd740;
-        --mdc-checkbox-unselected-focus-icon-color: #212121;
-        --mdc-checkbox-unselected-hover-icon-color: #212121;
-        --mdc-checkbox-unselected-icon-color: rgba(0, 0, 0, 0.54);
-        --mdc-checkbox-unselected-pressed-icon-color: rgba(0, 0, 0, 0.54);
-        --mdc-checkbox-selected-focus-state-layer-color: #ffd740;
-        --mdc-checkbox-selected-hover-state-layer-color: #ffd740;
-        --mdc-checkbox-selected-pressed-state-layer-color: #ffd740;
-        --mdc-checkbox-unselected-focus-state-layer-color: black;
-        --mdc-checkbox-unselected-hover-state-layer-color: black;
-        --mdc-checkbox-unselected-pressed-state-layer-color: black;
-      }
-      html {
-        --mdc-checkbox-state-layer-size: 40px;
-      }
-      html,
-      body {
-        font-family: Plus Jakarta Sans, sans-serif;
-        letter-spacing: -0.01rem;
-        width: 100%;
-        margin: 0;
-        padding: 0;
-        max-width: 100%;
-        scroll-behavior: smooth;
-        overflow-x: hidden;
-      }
-      @media screen and (max-width: 1080px) {
-        html,
-        body {
-          font-size: 85%;
-        }
-      }
-      @media screen and (min-width: 1600px) {
-        html,
-        body {
-          font-size: 115%;
-        }
-      }
-    </style>
-    <link
-      rel="stylesheet"
-      href="styles.f4a60929e4c7f4c8.css"
-      media="print"
-      onload="this.media='all'"
-    />
-    <noscript
-      ><link rel="stylesheet" href="styles.f4a60929e4c7f4c8.css"
-    /></noscript>
-    <meta charset="utf-8" />
-    <title>SymAware</title>
-    <base href="/" />
-    <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <link
-      rel="icon"
-      type="image/x-icon"
-      href="assets/icons/logo-symaware-no-text.png"
-    />
-    <style type="text/css">
-      @font-face {
-        font-family: "Material Icons";
-        font-style: normal;
-        font-weight: 400;
-        src: url(https://fonts.gstatic.com/s/materialicons/v140/flUhRq6tzZclQEJ-Vdg-IuiaDsNcIhQ8tQ.woff2)
-          format("woff2");
-      }
-      .material-icons {
-        font-family: "Material Icons";
-        font-weight: normal;
-        font-style: normal;
-        font-size: 24px;
-        line-height: 1;
-        letter-spacing: normal;
-        text-transform: none;
-        display: inline-block;
-        white-space: nowrap;
-        word-wrap: normal;
-        direction: ltr;
-        -webkit-font-feature-settings: "liga";
-        -webkit-font-smoothing: antialiased;
-      }
-    </style>
-  </head>
+    <head>
+        <style>
+            @import "https://cdn.mpi-klsb.mpg.de/google/css/plus-jakarta-sans-v8.css";
+            html {
+                --mdc-checkbox-disabled-selected-icon-color: rgba(
+                    0,
+                    0,
+                    0,
+                    0.38
+                );
+                --mdc-checkbox-disabled-unselected-icon-color: rgba(
+                    0,
+                    0,
+                    0,
+                    0.38
+                );
+                --mdc-checkbox-selected-checkmark-color: #000;
+                --mdc-checkbox-selected-focus-icon-color: #ffd740;
+                --mdc-checkbox-selected-hover-icon-color: #ffd740;
+                --mdc-checkbox-selected-icon-color: #ffd740;
+                --mdc-checkbox-selected-pressed-icon-color: #ffd740;
+                --mdc-checkbox-unselected-focus-icon-color: #212121;
+                --mdc-checkbox-unselected-hover-icon-color: #212121;
+                --mdc-checkbox-unselected-icon-color: rgba(0, 0, 0, 0.54);
+                --mdc-checkbox-unselected-pressed-icon-color: rgba(
+                    0,
+                    0,
+                    0,
+                    0.54
+                );
+                --mdc-checkbox-selected-focus-state-layer-color: #ffd740;
+                --mdc-checkbox-selected-hover-state-layer-color: #ffd740;
+                --mdc-checkbox-selected-pressed-state-layer-color: #ffd740;
+                --mdc-checkbox-unselected-focus-state-layer-color: black;
+                --mdc-checkbox-unselected-hover-state-layer-color: black;
+                --mdc-checkbox-unselected-pressed-state-layer-color: black;
+            }
+            html {
+                --mdc-checkbox-state-layer-size: 40px;
+            }
+            html,
+            body {
+                font-family: Plus Jakarta Sans, sans-serif;
+                letter-spacing: -0.01rem;
+                width: 100%;
+                margin: 0;
+                padding: 0;
+                max-width: 100%;
+                scroll-behavior: smooth;
+                overflow-x: hidden;
+            }
+            @media screen and (max-width: 1080px) {
+                html,
+                body {
+                    font-size: 85%;
+                }
+            }
+            @media screen and (min-width: 1600px) {
+                html,
+                body {
+                    font-size: 115%;
+                }
+            }
+        </style>
+        <link
+            rel="stylesheet"
+            href="styles.f4a60929e4c7f4c8.css"
+            media="print"
+            onload="this.media='all'"
+        />
+        <noscript
+            ><link rel="stylesheet" href="styles.f4a60929e4c7f4c8.css"
+        /></noscript>
+        <meta charset="utf-8" />
+        <title>SymAware</title>
+        <base href="/" />
+        <meta name="viewport" content="width=device-width, initial-scale=1" />
+        <link
+            rel="icon"
+            type="image/x-icon"
+            href="assets/icons/logo-symaware-no-text.png"
+        />
+    </head>
 
-  <body>
-    <app-root></app-root>
-    <script src="runtime.eb5721376c022b5e.js" type="module"></script>
-    <script src="polyfills.bc2a72347813e504.js" type="module"></script>
-    <script src="main.ba4b52f43c20f5f8.js" type="module"></script>
-  </body>
+    <body>
+        <app-root></app-root>
+        <script src="runtime.eb5721376c022b5e.js" type="module"></script>
+        <script src="polyfills.bc2a72347813e504.js" type="module"></script>
+        <script src="main.7b09594476c37f78.js" type="module"></script>
+    </body>
 </html>
